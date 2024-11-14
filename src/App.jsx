@@ -9,7 +9,7 @@ import Register from './pages/Authorization/Register.jsx';
 import PageNotFound from './pages/PageNotFound.jsx';
 import VehicleList from './components/VehicleList.jsx';
 import ProtectedRoute from './components/protectedRoute.js';
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import BookingList from './components/Booking/BookingList.jsx';
 import BookingConfirmation from './pages/BookingConfirmation.jsx';
 import UserProfile from './pages/UserProfile.jsx';
