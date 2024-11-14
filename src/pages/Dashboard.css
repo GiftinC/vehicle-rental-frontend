@@ -1,0 +1,67 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard-container h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dashboard-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-overview p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.booking-list {
+    width: 100%;
+    max-width: 500px;
+}
+
+.booking-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.booking-item p span {
+    font-weight: bold;
+    color: #333;
+}
+

@@ -1,0 +1,68 @@
+/* PaymentSuccess.css */
+
+.payment-success-page {
+    text-align: center;
+    margin-top: 50px;
+    color: #2ecc71;
+}
+
+.payment-success-page h2 {
+    font-size: 28px;
+    color: #2ecc71;
+    margin-bottom: 10px;
+}
+
+.payment-success-page p {
+    font-size: 18px;
+    color: #555;
+    margin: 15px 0 30px;
+}
+
+.payment-success-page .booking-details {
+    font-size: 16px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.payment-success-page .booking-details div {
+    margin: 5px 0;
+}
+
+.payment-success-page .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.payment-success-page button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-success-page button:hover {
+    background-color: #ddd;
+}
+
+.payment-success-page button:nth-child(1) {
+    background-color: #3498db;
+    color: white;
+}
+
+.payment-success-page button:nth-child(2) {
+    background-color: #e67e22;
+    color: white;
+}
+
+.payment-success-page button:nth-child(3) {
+    background-color: #27ae60;
+    color: white;
+}
